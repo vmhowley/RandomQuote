@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#author{
+  color: white;
+}
+
+#content {
+  color: #4A5567;
+}
+
+.regroup{
+  position: relative;
+  left: 2px;
+  border-radius: 8px 0px 0px 8px;
+  color: #4A5567;
+  cursor: pointer;
+}
+.link{
+  position: relative;
+  right: 2px;
+  border-radius: 0px 8px 8px 0px;
+  color: #4A5567;
+
+}
+.container{
+  background-image: url(./images/bg-image-random-quote.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #20293A ;
+  height: 200px;
+  border-radius: 12px;
+  width: 600px;
+  height: 200px;
+  padding: 2px;
+  margin: 8 auto;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #111729;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid ;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: transparent;
+  color: #6466E9;
+}
